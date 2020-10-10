@@ -1,9 +1,20 @@
 // --------------------------------------------------------------
-//                      CREATE PACKAGE.JSON
+//                              INITIAL
 // --------------------------------------------------------------
+// CREATE PACKAGE.JSON
 npm init -y
 
+// INSTALL PACKAGES LISTED IN DEPENDENCIES IN PACKAGE.JSON
+npm install
 
+
+
+// --------------------------------------------------------------
+//                            REACT
+// --------------------------------------------------------------
+// CREATE REACT APP
+npx create-react-app <app-name>
+npm start
 
 
 
