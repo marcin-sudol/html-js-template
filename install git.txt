@@ -132,6 +132,11 @@ git tag -d v1.0 [remove tag]
 
 
 
+// ALIASES
+git config --global alias.lo 'log --oneline --decorate --graph --all'
+
+
+
 // HELPFUL COMMANDS
 git status
 git statis -s
