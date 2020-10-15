@@ -43,11 +43,13 @@ class MyComponent extends React.Component {
     componentDidMount() {
         // ----- CALL FOR API -----
         // ----- ADD LISTENERS -----
+        // window.addEventListener('keydown', function () { });
     }
 
     // ----- COMPONENT WILL UNMOUNT -----
     componentWillUnmount() {
         // ----- REMOVE LISTENERS -----
+        // window.removeEventListener('keydown', function () { });
     }
 
     // ----- SHOULD COMPONENT UPDATE -----
