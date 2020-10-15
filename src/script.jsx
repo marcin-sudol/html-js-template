@@ -1,8 +1,3 @@
-"use strict";
-
-
-
-
 
 // ----- FUNCTIONAL COMPONENT -----
 const FunComponent = (props) => {
