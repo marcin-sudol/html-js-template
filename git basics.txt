@@ -91,6 +91,7 @@ git branch <name>
 
 // RENAME BRANCH
 git branch -m <newname>
+git branch -m <oldname> <newname>
 
 // CHANGE ACTIVE BRANCH
 git checkout <name>
