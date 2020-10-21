@@ -99,6 +99,9 @@ git checkout <name>
 // CREATE NEW BRANCH AND SWITCH TO IT
 git checkout -b <name>
 
+// DELETE BRANCH
+git branch -d <name>
+
 // MERGE BRANCH - MOVE MASTER TO THAT SELECTED BRANCH
 git checkout master
 git merge <name>
@@ -113,10 +116,14 @@ git commit -m 'Description'
 
 // OR USE MERGETOOL
 
-// DELETE BRANCH
-git branch -d <name>
-
-
+// REBASE
+// REBASE CURRENT BRANCH ON TO OF MASTER
+git rebase master 
+// REBASE ANY BRANCH ON TO OF MASTER
+git rebase master <branch>
+// REBASE ONTO
+git rebase --onto <newparent> <oldparent>
+git rebase --onto <newparent> <oldparent> <until>
 
 
 
